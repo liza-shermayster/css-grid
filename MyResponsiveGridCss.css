@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em
+}
+[class *= "myColumns-"]{
+    float: left;
+    padding: 5px
+}
+.myColumns-1{width: 8.33%;}
+.myColumns-2{width: 16.66%;}
+.myColumns-3{width: 25%;}
+.myColumns-4{width: 33.33%;}
+.myColumns-5{width: 41.66%;}
+.myColumns-6{width: 50%;}
+.myColumns-7{width: 58.33%;}
+.myColumns-8{width: 66.66%;}
+.myColumns-9{width: 75%;}
+.myColumns-10{width: 83.33%;}
+.myColumns-11{width: 91.66%;}
+.myColumns-12{width: 100%;}
+
+/* media query for different resolutions*/
+@media only screen and (max-width: 768px){
+    body{
+        background-color: greenyellow;
+    }
+    [class *= "myColumns-"]{
+            width: 100%;
+        }
+    }
+
+.header{
+    background-color: antiquewhite;
+    color: black;
+    padding: 0.5em
+}
+.menu ul{
+    margin:  0px;
+    list-style-type: none;
+    padding: 0px;
+}
+.menu li{
+    color: blue;
+    background-color: transparent;
+    box-shadow: 0 1px 3px rgba(0, 0,0, 0.8)
+}
+.menu li:hover{
+    color:blue;
+    background-color: tomato;
+}

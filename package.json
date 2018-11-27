@@ -4,16 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/liza-shermayster/css-grid.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/liza-shermayster/css-grid.git",
+  "author": "liza-shermayster <novliza86@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/liza-shermayster/css-grid/issues"
   },
-  "homepage": "https://github.com/liza-shermayster/css-grid#readme"
+  "homepage": "https://github.com/liza-shermayster/css-grid#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.6"
+  }
 }
